@@ -4,3 +4,6 @@
 .smallimgdiv:hover {
   box-shadow: 6px 12px 20px  rgba(252,70,107,1) ;
 }
+.btn2:hover {
+  box-shadow: 6px 12px 20px #4287f5;
+}

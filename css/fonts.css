@@ -1,13 +1,9 @@
-@font-face {
-  font-family: 'Montserrat';
-  src: url('..fonts/Montserrat-Light.eot');
-  src: url('../fonts/Montserrat-Light.eot?#iefix') format('embedded-opentype'),
-      url('../fonts/Montserrat-Light.woff2') format('woff2'),
-      url('../fonts/Montserrat-Light.woff') format('woff'),
-      url('../fonts/Montserrat-Light.ttf') format('truetype'),
-      url('../fonts/Montserrat-Light.svg#Montserrat-Light') format('svg');
-  font-weight: 300;
-  font-style: normal;
-  font-display: swap;
+ @font-face {
+   font-family: "Futura PT Demi";
+  src: url("../fonts1/15bdac91b83b25ea168302ffbc40909de.eot"); /* IE9*/
+  src: url("../fonts1/5bdac91b83b25ea168302ffbc40909de.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts1/5bdac91b83b25ea168302ffbc40909de.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts1/5bdac91b83b25ea168302ffbc40909de.woff") format("woff"), /* chrome、firefox */
+  url("../fonts1/5bdac91b83b25ea168302ffbc40909de.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts1/5bdac91b83b25ea168302ffbc40909de.svg#Futura PT Demi") format("svg"); /* iOS 4.1- */
 }
-

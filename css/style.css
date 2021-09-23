@@ -64,7 +64,7 @@ nav {
   height: 31px;
   color: #fff;
   font-size: 23px;
-  font-family: 'Montserrat';
+  font-family: "Futura PT Medium"; 
   text-transform: capitalize;
 }
 .miniP {
@@ -79,7 +79,7 @@ nav {
   font-size: 50px;
   line-height: normal;
   color: #fff;
-  font-family: 'Montserrat';
+  font-family: "Futura PT Medium"; 
   font-weight: bolder;
   text-transform: capitalize;
 }
@@ -157,7 +157,7 @@ nav {
   border-radius: 15px;
   color: #000000;
   font-size: 30px;
-  font-family: 'Montserrat';
+  font-family: "Futura PT Medium"; 
   font-weight: 900;
 }
 /* add about-section */
@@ -225,10 +225,10 @@ nav {
 .imgP1 {
   color: #fff;
   font-size: 20px;
-  font-family: 'Montserrat';
+  font-family: "Futura PT Medium"; 
   line-height: 10px;
   margin-top: 70px;
-  font-weight: 900;
+  font-weight: 400;
 }
 .imgP2 {
   color: #fff;
@@ -248,18 +248,22 @@ nav {
 }
 /* section 2 */
 /* left div */
-.section2divleft {
+.section2maindiv {
+  display: flex;
+}
+.section2div {
   max-width: 658px;
   width: 100%;
   height: 641;
-  margin-top: 350px;
-  margin-left: 70px;
+  margin-top: 200px;
+  margin-left: 100px;
 }
 .P2 {
   font-size: 15px;
   color: #FF6C2C;
   line-break: 10px;
   letter-spacing: 5px;
+  font-family: "Futura PT";
 }
 .H1 {
   margin-top: 10px;
@@ -298,4 +302,118 @@ nav {
   color: #000000;
   border-radius: 5px;
   margin-top: 71px;
+  font-weight: 600;
+}
+/* right div */
+.image1 {
+  background-image: url(../Images/measurement.jpg);
+  position: relative;
+  max-width: 200px;
+  width: 100%;
+  height: 293px;
+  top: 350px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  box-shadow: 6px 12px 20px  #f07502 ;
+}
+.image2 {
+  background-image: url(../Images/running-workout.jpg);
+  position: relative;
+  max-width: 200px;
+  width: 100%;
+  height: 231px;
+  top: 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 50px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  box-shadow: 6px 12px 20px  #a800eb ;
+}
+.image3 {
+  background-image: url(../Images/Hiit.jpg);
+  position: relative;
+  max-width: 200px;
+  width: 100%;
+  height: 231px;
+  top: 380px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: -200px;
+  margin-top: 150px;
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  box-shadow: 6px 12px 20px  #0284f5 ;
+}
+/* start page 2 */
+.divpage2 {
+  background-color: #222224;
+  width: 100%;
+  height: 540px;
+  margin-top: 200px;
+}
+.H2 {
+  padding-top: 130px;
+  color: #FFFFFF;
+  font-size: 60px;
+  text-align: center;
+  font-family: "Futura PT Medium";
+}
+.H2::after {
+  content:'';
+  max-width: 115px;
+  width: 100%;
+  height: 2px;
+  background-color: #5EB6E1;
+  display: block;
+  margin-top: 30px;
+  margin-left: 620px;
+}
+.P5 {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 25px;
+  margin-top: 40px;
+  margin-left: 150px;
+  margin-right: 150px;
+  line-height: 40px;
+  text-transform: capitalize;
+}
+/* page 2//section 3--IMAGES */
+.divimg {
+  display: inline-block;
+}
+.size {
+  max-width: 447px;
+  width: 100%;
+}
+.displey {
+  display: inline-block;
+  position: relative;
+  position: relative;
+}
+.imgbox {
+  display: inline;
+  position: absolute;
+  background-color: #13191A;
+  opacity: .4;
+  width: 100%;
+  height: 134px;
+  margin-left: -447px;
+  margin-top: 210px;
+  /* z-index: 10; */
+}
+.P6 {
+  display: inline-block;
+  position: absolute;
+  vertical-align: middle;
+  color: #FFFFFF;
+  z-index: 15;
+  margin-left: -350px;
+  margin-top: 100px;
+  font-size: 45px;
+  text-align: center;
 }
