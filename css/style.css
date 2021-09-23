@@ -385,26 +385,26 @@ nav {
 /* page 2//section 3--IMAGES */
 .divimg {
   display: inline-block;
+  position: relative;
 }
 .size {
   max-width: 447px;
   width: 100%;
 }
-.displey {
+/* .displey {
   display: inline-block;
   position: relative;
   position: relative;
-}
+} */
 .imgbox {
-  display: inline;
+  display: inline-block;
   position: absolute;
-  background-color: #13191A;
-  opacity: .4;
+  background: rgba(0, 0, 0,  0.5803921568627451);
+  max-width: 447px;
   width: 100%;
   height: 134px;
-  margin-left: -447px;
+  /* margin-left: -451px; */
   margin-top: 210px;
-  /* z-index: 10; */
 }
 .P6 {
   display: inline-block;
@@ -413,7 +413,7 @@ nav {
   color: #FFFFFF;
   z-index: 15;
   margin-left: -350px;
-  margin-top: 100px;
+  margin-top: 70px;
   font-size: 45px;
   text-align: center;
 }
