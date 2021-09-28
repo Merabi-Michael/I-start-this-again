@@ -1,9 +1,29 @@
  @font-face {
    font-family: "Futura PT Demi";
-  src: url("../fonts1/15bdac91b83b25ea168302ffbc40909de.eot"); /* IE9*/
-  src: url("../fonts1/5bdac91b83b25ea168302ffbc40909de.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
-  url("../fonts1/5bdac91b83b25ea168302ffbc40909de.woff2") format("woff2"), /* chrome、firefox */
-  url("../fonts1/5bdac91b83b25ea168302ffbc40909de.woff") format("woff"), /* chrome、firefox */
-  url("../fonts1/5bdac91b83b25ea168302ffbc40909de.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-  url("../fonts1/5bdac91b83b25ea168302ffbc40909de.svg#Futura PT Demi") format("svg"); /* iOS 4.1- */
+  src: url("../fonts1/Futura PT Demi.eot"); /* IE9*/
+  src: url("../fonts1/Futura PT Demi.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+  url("../fonts1/Futura PT Demi.woff2") format("woff2"), /* chrome、firefox */
+  url("../fonts1/Futura PT Demi.woff") format("woff"), /* chrome、firefox */
+  url("../fonts1/Futura PT Demi.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url("../fonts1/Futura PT Demi.svg#Futura PT Demi") format("svg"); /* iOS 4.1- */
+}
+
+@font-face {
+  font-family: "Futura PT Medium"; 
+  src: url("../fonts1///db.onlinewebfonts.com/t/Futura PT Medium.eot"); 
+  src: url("../fonts1///db.onlinewebfonts.com/t/Futura PT Medium.eot?#iefix") format("embedded-opentype"), 
+  url("../fonts1///db.onlinewebfonts.com/t/Futura PT Medium.woff2") format("woff2"), 
+  url("../fonts1///db.onlinewebfonts.com/t/Futura PT Medium.woff") format("woff"), 
+  url("../fonts1///db.onlinewebfonts.com/t/Futura PT Medium.ttf") format("truetype"),
+  url("../fonts1///db.onlinewebfonts.com/t/Futura PT Medium.svg#Futura PT Medium") format("svg"); 
+}
+
+@font-face {
+  font-family: "Futura PT";
+   src: url("../fonts2///db.onlinewebfonts.com/t/Futura PT.eot"); 
+   src: url("../fonts2///db.onlinewebfonts.com/t/Futura PT.eot?#iefix") format("embedded-opentype"), 
+   url("../fonts2///db.onlinewebfonts.com/t/Futura PT.woff2") format("woff2"),
+   url("../fonts2///db.onlinewebfonts.com/t/Futura PT.woff") format("woff"), 
+   url("../fonts2///db.onlinewebfonts.com/t/Futura PT.ttf") format("truetype",
+   url("../fonts2///db.onlinewebfonts.com/t/Futura PT.svg#Futura PT") format("svg"); 
 }
